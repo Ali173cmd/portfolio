@@ -3,42 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
-            background: #0f172a;
-            font-family: 'Poppins', sans-serif;
-        }
-        .container {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 30px 50px;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-            backdrop-filter: blur(10px);
-        }
-        h1 {
-            color: #00d9ff;
-            font-size: 30px;
-            text-transform: uppercase;
-            text-shadow: 0 0 10px #00d9ff, 0 0 20px #00d9ff;
-        }
-        h2 {
-            color: #ff004f;
-            font-size: 22px;
-            text-shadow: 0 0 10px #ff004f, 0 0 20px #ff004f;
-        }
-    </style>
+    <title>BajX Solutions | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>WELCOME TO localhost/web/index.html</h1>
-        <h2>AHSAN IQBAL: 08049</h2>
-    </div>
+
+    <header>
+        <h1>BajX Solutions</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Passionate about AI, software development, and technology.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a Computer Science student at IUB, passionate about AI, machine learning, and software development.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>AI-Powered Air Defense System</h3>
+            <p>Final year project focused on detecting and neutralizing IED threats using AI.</p>
+        </div>
+        <div class="project">
+            <h3>Face Detection System</h3>
+            <p>Implemented AI-powered face detection using machine learning.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: contact@bajxsolutions.com</p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/bajx</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 BajX Solutions. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
